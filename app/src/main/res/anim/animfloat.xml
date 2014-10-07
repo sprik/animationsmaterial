@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<animated-selector
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <!-- provide a different drawable for each state-->
+    <item android:id="@+id/pressed" android:state_pressed="true" />
+    <item android:id="@+id/focused" android:state_focused="true" />
+    <item android:id="@+id/basestate" />
+
+    <!-- specify a transition -->
+    <transition android:fromId="@+id/basestate" android:toId="@+id/pressed">
+        <animation-list>
+            <item android:duration="500" android:drawable="@android:drawable/ic_input_add"/>
+        </animation-list>
+    </transition>
+
+</animated-selector>

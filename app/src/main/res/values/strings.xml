@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">AnimationsMaterialDesign</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="first_anim">Ripple Animation</string>
+    <string name="second_anim">Activity Animation</string>
+    <string name="third_anim">Reveal Animation</string>
+    <string name="fourth_anim">Animated State Listener</string>
+    <string name="touch_feed">Touch Feedback</string>
+    <string name="title_activity_transition">TransitionActivity</string>
+    <string name="title_activity_reveal">RevealActivity</string>
+    <string name="reveal_anim">Reveal</string>
+    <string name="reveal_in_anim">Reveal In</string>
+    <string name="reveal_out_anim">Reveal Out</string>
+
+</resources>
